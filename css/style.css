@@ -82,6 +82,7 @@ main{
 
 .menu-item:hover a {
     color: #FF4A60;
+    text-decoration:underline;
 }
 
 .profile {
