@@ -26,6 +26,82 @@ main{
     
 }
 
+/* header style */
+
+.nav {
+    height: 94px;
+    width: 100%;
+    background-color: #562EFF;
+    display: grid;
+    justify-content: center;
+}
+
+.nav-inner {
+    width: 870px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo {
+    width: 40px;
+    height: 51px;
+    margin-right: 15px;
+}
+
+.logo-menu h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    list-style-type: none;
+    margin-right: 36px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.menu-item a {
+    transition: 0.5s;
+}
+
+.menu-item:hover a {
+    color: #FF4A60;
+}
+
+.profile {
+    margin-right: 0px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.profile-icon {
+    width: 52px;
+    height: 52px;
+}
+
+
+
 /* top players style  */
 .section-title{
     color: #562EFF;
