@@ -268,3 +268,8 @@ footer>p{
     color:#FFFFFF;
     top: 15px;
 }
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
